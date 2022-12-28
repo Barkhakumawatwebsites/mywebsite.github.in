@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+}
+.section-title{
+    font-size: 32px;
+    color: #0c2e8a;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 50px;
+}
+hr{
+    width: 63px;
+    color: #50d8af;
+    border: 2px solid;
+}
+#topbar{
+    border-bottom: 1px solid #eee;
+}
+.contact-info{
+    font-size: 14px;
+}
+.contact-info i{
+    color: #50d8af;
+}
+.top-right{
+    text-align: right;
+}
+.icon i{
+    border-right: 1px solid #eee;
+    padding: 3px 10px;
+    line-height: 0.5;
+}
+.icon i:hover{
+    color: #50d8af;
+}
+/* ###################navbar##################### */
+.title{
+    color:#0c2e8a;
+    font-size: 42px !important;
+    font-weight: 600;
+}
+.title span{
+    color: #50d8af;
+}
+.nav-link{
+    color: #444;
+}
+.active{
+    color: #50d8af;
+}
+.nav-link:hover{
+    color: #50d8af;
+}
+/* #######################banner-section################### */
+#banner-section{
+    background: url(IMAGE/hero-carousel/2.jpg) no-repeat;
+    background-size: cover;
+}
+.banner-text{
+    text-align: center;
+    font-size: 65px;
+    padding: 100px 220px 70px;
+    font-weight: 800;
+    color: #0c2e8a;
+}
+.banner-text span{
+    color: #50d8af;
+    text-decoration: underline;
+}
+.banner-button a{
+    color: #fff;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin-bottom: 100px;
+
+}
+.banner-start-btn{
+    background-color: #0c2e8a;
+    border: 2px solid #0c2e8a;
+}
+.banner-project-btn{
+    background-color: #50d8af;
+    border: 2px solid #50d8af;
+    margin-left: 10px;
+}
+.banner-start-btn:hover{
+    background-color: #fff;
+    color: #0c2e8a;
+}
+.banner-project-btn:hover{
+    background-color: #fff;
+    color: #50d8af;
+}
+/* ########################start about-section################## */
+.about-right{
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+.about-head{
+    color: #0c2e8a;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 15px;
+}
+.about-p{
+    color:#55555596;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic; 
+    padding-bottom: 10px;
+}
+.about-ul{
+    line-height: 25px;
+    list-style: none;
+}
+.about-ul li{
+    padding: 5px 0;
+    color: #555;
+}
+.about-ul li i{
+    color: #50d8af;
+    font-size: 20px;
+}
+/* #########################start service-section################### */
+.box{
+    box-shadow: 10px 10px 15px rgba(53, 52, 52, 0.24);
+    padding: 30px;
+    margin: 15px 5px; 
+     position: relative;
+    bottom: 0;
+    transition: all 0.5s linear;
+}
+.box-icon{
+    font-size: 45px;
+    color:#50d8af;
+    padding-right: 25px;
+}
+.box-content h4{
+    color: #444;
+    font-weight: 800;
+}
+.box-content p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.box:hover{
+    bottom: 15px;
+    box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+}
+/* ##################portfolio section################### */
+.port-anchor a{
+    text-decoration: none;
+    color: #444;
+    background-color: #5753532e;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.port-anchor a.active{
+    background-color: #50d8af;
+    color: #fff;
+}
+.port-anchor a:hover{
+    background-color: #50d8af;
+    color: #fff;
+}
+.img-box{
+    position: relative;
+    overflow: hidden;
+    margin-top: 15px;
+
+}
+.img-box img{
+    position: relative;
+    top: 0;
+    transition: all 0.8s linear;
+}
+.port-img-bg{
+    height: 85px;
+    width: 100%;
+    background-color: #50d8af;
+    position: absolute;
+    bottom: -130px;
+    transition: all 0.5s linear; 
+}
+.app1{
+    padding: 12px 25px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+.app{
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 15px;
+}
+.img-box:hover img{
+    top: -25px;
+}
+.img-box:hover .port-img-bg{
+    bottom: 0;
+}
+/* ############################testimonial################## */
+.test-inner-box{
+    padding: 50px 30px;
+    margin: 30px 12px;
+    text-align: center;
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
+}
+.test-para{
+    font-style: italic;
+}
+.img-left{
+    width: 37px;
+    margin-top: -15px;
+    padding-right: 10px;
+}
+.img-right{
+    margin-bottom: -15px;
+    padding-left: 10px;
+    width: 37px;
+}
+.test-box-inner-img{
+    border-radius: 50%;
+    width: 90px;
+    border: 4px solid #fff;
+}
+.test-inner-box h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+.test-inner-box h4{
+    font-size: 14px;
+    color: #999;
+}
+/* ############################call to action####################### */
+#callaction{
+    background-color: #081e5b;
+    color: #fff;
+    margin-top: 40px;
+    padding: 40px 0 30px;
+}
+.cta-h3{
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.cta-3{
+    justify-content: flex-end;
+}
+.cta-anchor{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 26px;
+    border-radius: 3px;
+    margin: 10px;
+    border: 3px solid #fff;
+}
+.cta-anchor:hover{
+    background-color: #50d8af;
+    border: 3px solid #50d8af;
+    color: #fff;
+    text-decoration: none;
+}
+/* ##############################team section##################### */
+.team-img-bg{
+    background-color: #50d8af;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+    color: #fff;
+    text-align: center;
+}
+.team-h4{
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 0;
+}
+.team-img-bg span{
+    font-size: 13px;
+    font-style: italic;
+}
+.team-icon i{
+    margin: 5px 2px;
+    font-size: 18px;
+}
+/* ###########################contact section##################### */
+.contact-add{
+    text-align:center;
+    padding: 30px 20px 10px;
+}
+.contact-add i{
+    font-size: 48px;
+    color: #50d8af;
+    margin-bottom: 15px;
+}
+.ads{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #999;
+}
+.contact-add address{
+    color: #000;
+}
+.contact-add2{
+    text-align:center;
+    padding: 30px 20px 10px;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+}
+.contact-add2 i{
+    font-size: 48px;
+    color: #50d8af;
+    margin-bottom: 15px;
+    
+}
+.contact-add2 address{
+    color: #000;
+}
+.form-control{
+    height: 45px;  
+}
+textarea{
+    height: 170px !important;
+}
+.contact-button{
+    background: #50d8af;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.contact-button:hover{
+    background-color: #2dc899;
+}
+/* ############################footer section################## */
+#footer-section{
+    background: #d2dae2;
+    padding: 30px 0 30px 0;
+    font-size: 14px;
+    text-align: center;
+}
+/* .back-to-top{
+    color: #fff;
+    font-size: 40px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.back-to-top i{
+    padding: 5px 10px;
+} */
+
+
+
+
+
+
+
+@media(max-width:500px)
+{
+    .icon{
+        text-align: center;
+    }
+    /* banner-section */
+    #banner-section h1{
+        padding:100px 0 70px ;
+        font-size: 45px;
+    }
+    .banner-button{
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-button a{
+        margin-bottom: 10px;
+    }
+    .banner-project-btn{
+        margin-left: 0;
+    }
+    /* about-section */
+    .about-head{
+        font-size: 26px;
+    }
+    .about-p{
+        text-align: justify;
+        font-size: 16px;
+    }
+    /* service section */
+    .para{
+        font-size: 17px;
+    }
+    .box{
+        flex-direction: column;
+        text-align: center;
+        padding: 12px;
+    }
+    /* portfolio section */
+    .port-anchor a{
+        padding: 8px 15px;
+        margin: 4px;
+    }
+    /* cta section */
+    .cta-9{
+        text-align: center;
+    }
+    .cta-3{
+        justify-content:center;
+    }
+    /* contact section */
+    .contact-add2{
+        border: none;
+    }
+    .form-c-media{
+        margin-top: 15px;
+    }
+
+
+}
